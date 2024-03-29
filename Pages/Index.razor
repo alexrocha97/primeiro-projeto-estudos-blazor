@@ -1,6 +1,9 @@
 ﻿@page "/"
 @using Servicos;
 @using Entidades;
+@inject ServicoSingleton _servicoSingleton;
+@inject ServicoScoped _servicoScoped;
+@inject ServicoTransient _servicoTransient;
 @implements IDisposable;
 
 <PageTitle>Index</PageTitle>
@@ -9,8 +12,8 @@
 <h2>Fui renderizado as @HoraRederizacao</h2>
 
 @code {
-    private string Titulo { get; set; }
-    private string HoraRederizacao { get; set; }
+    private string? Titulo { get; set; }
+    private string? HoraRederizacao { get; set; }
    
     @* É um método de ciclo de vida do componente Blazor. Ele é chamado quando o componente é inicializado, 
     mas antes de ser renderizado pela primeira vez. 

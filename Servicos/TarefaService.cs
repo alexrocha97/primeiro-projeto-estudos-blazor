@@ -1,5 +1,4 @@
 using System.Text.Json;
-using Microsoft.AspNetCore.Components.Forms;
 using primeiro_projeto_estudos.Entidades;
 
 namespace primeiro_projeto_estudos.Servicos
@@ -19,8 +18,7 @@ namespace primeiro_projeto_estudos.Servicos
             string jsonContent = File.ReadAllText(jsonFilePath);
             var tarefas = JsonSerializer.Deserialize<List<Tarefa>>(jsonContent);
             
-            var listaTarefas = new List<Tarefa>();
-            return listaTarefas;
+            return tarefas;
 
             // var result = await _httpClient.GetFromJsonAsync<List<Tarefa>>("E:/Projetos/Blazor/primeiro-projeto-estudos/wwwroot/dados/tarefas.json");
             // return tarefas;

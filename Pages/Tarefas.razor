@@ -2,15 +2,15 @@
 @using Entidades;
 @inject HttpClient Http;
 @inject Servicos.TarefaService _servicoTarefas;
-
+@inject IRepositorio _repositorio;
 
 <PageTitle>Lista de Tarefas</PageTitle>
 
-@* @if(tarefas == null)
+@if(tarefas == null)
 {
     <Alerta/>
-        <Conteudo01>Teste de conteudo 01</Conteudo01>
-        <Conteudo02>Teste de conteudo 02</Conteudo02>
+        @* <Conteudo01>Teste de conteudo 01</Conteudo01>
+        <Conteudo02>Teste de conteudo 02</Conteudo02> *@
         <span style="color: blue;">Carregando tarefas...</span>
     <Alerta/>
 }
@@ -44,9 +44,9 @@ else
             }
         </tbody>
     </table>
-} *@
+}
 
-<table class="table">
+@* <table class="table">
     <thead>
         <tr>
             <th>Funções</th>
@@ -62,7 +62,7 @@ else
             </Lista>
         </ListaGenerica>
     </tbody>
-</table>
+</table> *@
 
 @if(tarefas != null)
 {
@@ -78,7 +78,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        var result = await _servicoTarefas.GetTarefasAsync();
+        var result = await _repositorio.ObterTarefas();
         tarefas = result;
     }
 
