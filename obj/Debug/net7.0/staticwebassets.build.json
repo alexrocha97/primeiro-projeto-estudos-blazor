@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YdLDeTVzc3WwJEQNPjA3+/GEQkBK55f/imlGN+GT0fE=",
+  "Hash": "9PiG6kNq0JBzEMioD9aR4HecogCGSJNJZ75w0jDIoog=",
   "Source": "primeiro-projeto-estudos",
   "BasePath": "_content/primeiro-projeto-estudos",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "primeiro-projeto-estudos\\wwwroot",
       "Source": "primeiro-projeto-estudos",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\bundle\\primeiro-projeto-estudos.styles.css",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\bundle\\primeiro-projeto-estudos.styles.css",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Computed",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "primeiro-projeto-estudos.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\bundle\\primeiro-projeto-estudos.styles.css"
+      "OriginalItemSpec": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\bundle\\primeiro-projeto-estudos.styles.css"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\primeiro-projeto-estudos.bundle.scp.css",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\primeiro-projeto-estudos.bundle.scp.css",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Computed",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "primeiro-projeto-estudos.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\primeiro-projeto-estudos.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\primeiro-projeto-estudos.bundle.scp.css"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\site.css",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\css\\site.css",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\dados\\tarefas.json",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\dados\\tarefas.json",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "dados/tarefas.json",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\dados\\tarefas.json"
     },
     {
-      "Identity": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\favicon.png",
+      "Identity": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\favicon.png",
       "SourceId": "primeiro-projeto-estudos",
       "SourceType": "Discovered",
-      "ContentRoot": "e:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
+      "ContentRoot": "E:\\Projetos\\Blazor\\primeiro-projeto-estudos\\wwwroot\\",
       "BasePath": "_content/primeiro-projeto-estudos",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
