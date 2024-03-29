@@ -1,0 +1,40 @@
+@typeparam TItem
+
+@if(ListaItem == null)
+{
+    if(Carregando == null)
+    {
+        <text> Carregando </text>
+    }
+    else 
+    {
+        @Carregando
+    }
+}
+else if(!ListaItem.Any())
+{
+    if(SemRegistro == null)
+    {
+        <text> Sem registro </text>
+    }
+    else
+    {
+        @SemRegistro
+    }
+}
+else
+{
+    foreach(var item in ListaItem)
+    {
+        @Lista(item)
+    }
+}
+
+
+@code
+{
+    [Parameter] public RenderFragment Carregando { get; set; }
+    [Parameter] public RenderFragment SemRegistro { get; set; }
+    [Parameter] public List<TItem> ListaItem { get; set; }
+    [Parameter] public RenderFragment<TItem> Lista { get; set; }
+}

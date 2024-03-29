@@ -1,0 +1,98 @@
+@page "/tarefas"
+@using Entidades;
+@inject HttpClient Http;
+@inject Servicos.TarefaService _servicoTarefas;
+
+
+<PageTitle>Lista de Tarefas</PageTitle>
+
+@* @if(tarefas == null)
+{
+    <Alerta/>
+        <Conteudo01>Teste de conteudo 01</Conteudo01>
+        <Conteudo02>Teste de conteudo 02</Conteudo02>
+        <span style="color: blue;">Carregando tarefas...</span>
+    <Alerta/>
+}
+else if(!tarefas.Any())
+{
+    <Alerta/>
+        <div class="card">
+            <div class="card-body">
+                Você precisa cadastrar algumas tarefas.
+            </div>
+        </div>
+    <Alerta/>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Funções</th>
+                <th>Data de Criação</th>
+                <th>Descrição</th>
+                <th>Concluída</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var tarefa in tarefas)
+            {
+                <tr>
+                    <TarefaIndividual Tarefa="@tarefa" RemoverTarefa="RemoveTarefa" />
+                </tr>
+            }
+        </tbody>
+    </table>
+} *@
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Funções</th>
+            <th>Data de Criação</th>
+            <th>Descrição</th>
+            <th>Concluída</th>
+        </tr>
+    </thead>
+    <tbody>
+        <ListaGenerica ListaItem="tarefas">
+            <Lista Context="tarefa">
+                <TarefaIndividual Tarefa="tarefa" RemoverTarefa="RemoveTarefa" />
+            </Lista>
+        </ListaGenerica>
+    </tbody>
+</table>
+
+@if(tarefas != null)
+{
+    <div class="form-group">
+        <input type="text" class="form-control" @bind="novaTarefa" />
+        <button class="btn btn-primary" @onclick="AdicionarTarefa">Adicionar</button>
+    </div>
+}
+
+@code {
+    private string novaTarefa = "";
+    private List<Tarefa> tarefas = new List<Tarefa>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await _servicoTarefas.GetTarefasAsync();
+        tarefas = result;
+    }
+
+    public void RemoveTarefa(Tarefa tarefa)
+    {
+        tarefas.RemoveAll(t => t.ID == tarefa.ID);
+    }
+
+    public void AdicionarTarefa()
+    {
+        var tarefa = _servicoTarefas.AdicionarTarefa(novaTarefa);
+        if(tarefa != null){
+            tarefas.Add(tarefa);
+            novaTarefa = "";
+        }
+    }
+}

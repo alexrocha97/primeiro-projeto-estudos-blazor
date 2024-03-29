@@ -1,0 +1,13 @@
+@using Entidades;
+@using Util;
+
+<td><button @onclick="(() => RemoverTarefa.InvokeAsync(tarefa))"><i class="oi oi-trash"></i></button></td>
+<td>@tarefa.DataCriacao</td>
+<td>@tarefa.Descricao</td>
+<td><input type="checkbox" @bind="tarefa.Concluida"> @Utilidades.SetarStatusTarefa(@tarefa.Concluida)</td>
+
+@code {
+    [Parameter] public Tarefa? tarefa { get; set; }
+    // Passagem de evento
+    [Parameter] public EventCallback<Tarefa> RemoverTarefa { get; set; }
+}
